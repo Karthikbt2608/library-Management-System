@@ -1,0 +1,18 @@
+.addusercard{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(90, 175, 249);
+}
+.userheader h1{
+    text-align: center;
+    margin-top: 0;
+}
+.usercardlist{
+  position: relative;
+  top: 30px;
+  left: 70px;
+}
+.addusercard  button{
+    margin-top: 50px;
+}

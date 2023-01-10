@@ -1,0 +1,45 @@
+.landing{
+    background-image: url("../../public/images/p1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.selectLogin h1{
+    text-align: center;
+    margin-top: 0px
+   
+}
+.selectLogin{
+    height: 300px;
+    width: 500px;
+    background-color:white;
+   margin: auto;
+   padding: 50px 100px;
+   position: relative;
+   top: 160px;
+   box-shadow: 0px 0px 5px black;
+}
+.login_btn{
+    text-decoration: none;
+   
+    margin: 10px 40px;
+    padding: 5px 30px;
+    position: relative;
+    top: 50px;
+    left:   20px;
+}
+#btn1{
+    border:1px solid red ;
+}
+#btn2{
+    border: 1px solid green;
+}
+#btn2:focus{
+    color: green;
+}
+.images img{
+    margin: 0px 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}

@@ -1,0 +1,18 @@
+.user_details{
+    display: inline-table;
+    height: 200px;
+    width: 350px;
+    background-color: beige;
+    margin: 10px;
+    padding: 20px;
+}
+.userList{
+    background-color: lightgreen;
+}
+.userList h1{
+    margin-top:0px ;
+    text-align: center;
+}
+.user_details button{
+    
+}
