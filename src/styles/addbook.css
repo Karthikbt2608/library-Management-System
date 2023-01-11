@@ -1,0 +1,46 @@
+.form1{
+   position: relative;
+   
+   left: 510px;
+   width: 500px;
+   background-color: rgba(250, 235, 215, 0.616);
+   box-shadow: 0px 0px 5px black;
+   padding: 10px;
+}
+.form1 input{
+   margin: 5px 155px;
+   border: none;
+   border-bottom: 2px solid black;
+   padding: 5px 10px;
+   outline: none;
+   border-radius: 10px;
+    
+}
+.form1 textarea{
+    margin: 5px 120px;
+}
+.addBook h1{
+    text-align: center;
+    margin-top:0 ;
+    position: relative;
+    
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+.form1 button{
+    margin: 5px 210px;
+    padding: 5px 9px  ;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background-color: orangered;
+    color: white;
+    box-shadow: 0px 0px 2px black;
+}
+.addBook{
+   background-image: url("../../public/images/book4.jpg");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}

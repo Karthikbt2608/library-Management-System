@@ -51,7 +51,7 @@ const AddBook = () => {
                         <textarea placeholder="longDecription of the book" required name="" id="" cols="30" rows="7" value={longDescription} onChange={(e) => setlongDescription(e.target.value)}></textarea>
                     </div>
                     <div className="thumbnailUrl">
-                        <input type="text" required value={thumbnailUrl} onChange={(e) => setthumbnailUrl(e.target.value)} />
+                        <input type="text" required value={thumbnailUrl} onChange={(e) => setthumbnailUrl(e.target.value)} placeholder="image url" />
                     </div>
                     <button className="">Add book</button>
                 </form>

@@ -1,18 +1,44 @@
-.addusercard{
-    height: 200px;
-    width: 300px;
-    margin: auto;
-    background-color: rgb(90, 175, 249);
+.adduser{
+   background-image: url("../../public/images/people3.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    background-position: center;
+
 }
-.userheader h1{
+.adduser h1{
     text-align: center;
-    margin-top: 0;
+    margin: 0px;
+    position: relative;
+    top: 80px;
+    font-size: 40px;
+
 }
-.usercardlist{
-  position: relative;
-  top: 30px;
-  left: 70px;
+.addusercard{
+    background-color: rgba(211, 211, 211, 0.542);
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 550px;
+    padding: 30px 0px;
+    box-shadow: 0px 0px 2px black;
+
 }
-.addusercard  button{
-    margin-top: 50px;
+.addusercard input{
+    margin: 5px  115px;
+   padding: 3px 10px;
+   outline: none;
+   border: none;
+   border-bottom: 3px solid black   ;
+   border-radius: 10px;
+}
+.addusercard button{
+    margin: 10px 150px;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(246, 88, 30);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px black;
 }
