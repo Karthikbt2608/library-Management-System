@@ -25,7 +25,7 @@ const UserList = () => {
                             <h1>{data.name}</h1>
                             <h3>{data.age}</h3>
                             <h3>{data.email}</h3>
-                            <h3>{data.phonenumber}</h3>
+                            <h3>{data.phoneNumber}</h3>
                             <button onClick={()=>handleUser(data.id,data.name)}>remove</button>
                         </div>
                     ))

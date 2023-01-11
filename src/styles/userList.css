@@ -1,18 +1,26 @@
 .user_details{
     display: inline-table;
-    height: 200px;
-    width: 350px;
+    height: 250px;
+    width: 390px;
     background-color: beige;
-    margin: 10px;
+    margin: 10px 30px;
     padding: 20px;
+    box-shadow: 0px 0px 5px black;
 }
 .userList{
-    background-color: lightgreen;
+    background-color: rgb(205, 248, 205);
+    padding: 10px;
+
 }
 .userList h1{
     margin-top:0px ;
     text-align: center;
 }
 .user_details button{
-    
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(108, 106, 106);
+    color: white;
+    box-shadow: 0px 0px 5px rgb(5, 5, 5);
 }
